@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh; /* Altezza intera della pagina */
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+}
+
+.logo-placeholder {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navigation {
+  flex: 1; /* Occupare lo spazio rimanente */
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation a {
+  padding: 15px;
+  color: #2b2b2b;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navigation a:hover {
+  color: #2b2bb2; /* Colore al passaggio del mouse */
+}
+
+.user-info {
+  text-align: center;
+  padding: 20px;
+}
+
+.avatar {
+  width: 50px; /* Imposta una larghezza per l'avatar */
+  height: 50px; /* Imposta un'altezza per l'avatar */
+  border-radius: 50%; /* Rendere l'immagine dell'avatar rotonda */
+}
+
+.username {
+  margin-top: 10px;
+}
